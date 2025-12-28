@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>consulo</groupId>
-		<artifactId>arch.managment</artifactId>
-		<version>3-SNAPSHOT</version>
-		<relativePath/>
-	</parent>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>consulo</groupId>
+        <artifactId>arch.managment</artifactId>
+        <version>3-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
 
-	<groupId>consulo.internal.sound</groupId>
-	<artifactId>jvorbis</artifactId>
-	<version>3-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <groupId>consulo.internal.sound</groupId>
+    <artifactId>jvorbis</artifactId>
+    <version>3.1</version>
+    <packaging>jar</packaging>
 
-	<developers>
-		<developer>
-			<id>axet</id>
-			<name>Alexey Kuznetsov</name>
-			<email>axet@me.com</email>
-		</developer>
-	</developers>
+    <developers>
+        <developer>
+            <id>axet</id>
+            <name>Alexey Kuznetsov</name>
+            <email>axet@me.com</email>
+        </developer>
+    </developers>
 
-	<repositories>
-		<repository>
-			<id>consulo</id>
-			<url>https://maven.consulo.dev/repository/snapshots/</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>interval:60</updatePolicy>
-			</snapshots>
-		</repository>
-	</repositories>
+    <repositories>
+        <repository>
+            <id>consulo</id>
+            <url>https://maven.consulo.dev/repository/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>interval:60</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 
 
-	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>jogg</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-	</dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>jogg</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
